@@ -1,5 +1,5 @@
 endpoint: http://localhost:4466
-datamodel: datamodel.prisma
+datamodel: ./database/datamodel.prisma
 generate:
   - generator: javascript-client
-    output: ./prisma-client/
+    output: ./database/prisma-client/

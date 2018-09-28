@@ -11,3 +11,10 @@ type Post {
   published: Boolean! @default(value: "false")
   author: User
 }
+
+type Todo {
+  id: ID! @unique
+  title: String!
+  description: String!
+  start: DateTime
+}
